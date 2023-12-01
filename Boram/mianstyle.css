@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image:url("images/mom3.jpg");
+    height: 150px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2{
+    font-family:  'Playfair Display', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+main section {
+    flex: 1 1 33%;
+    padding: 2%;
+}
+
+section {
+    font-family: 'Roboto Slab', serif;
+}
+
+footer {
+    background: #f1e4de;
+    padding: 2%;
+}
