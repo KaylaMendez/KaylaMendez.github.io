@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&family=Ribeye+Marrow&display=swap');
+
+/*
+font-family: 'Ribeye', serif;
+font-family: 'Ribeye Marrow', serif;
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background:url("images/pexels-pixabay-326279.jpg") ;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Ribeye', serif; 
+    position: absolute;
+    bottom: 0px;
+}
+
+h1 span{
+    display: block;
+   font-family: 'Ribeye Marrow', serif;
+}
+
+h2 {
+    font-family: 'Ribeye Marrow', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main section {
+    flex: 1 1 33%;
+    padding: 10px;
+}
+
+footer {
+    background: #ddd;
+    padding: 2%;
+}
+
